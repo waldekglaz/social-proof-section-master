@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    background-color: hsl(300, 24%, 96%);
+}
+main{
+    padding: 4rem 1.5rem;
+}
+.statement{
+    margin-bottom: 2rem;
+}
+.statement h1{
+color: hsl(300, 43%, 22%);
+letter-spacing: -1px;
+padding: 0 2rem;
+line-height: 1;
+margin-bottom: 1.5rem;
+}
+.statement p{
+    color:hsl(303, 10%, 53%) ;
+    line-height: 1.5;
+    font-size: 12px;
+    
+}
+.ratings{
+    background-color: rgba(147, 123, 146, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 0.5rem;
+}
+.rating__points{
+margin-bottom: 0.75rem;
+}
+
+.review{
+    background-color: hsl(300, 43%, 22%);
+    margin-bottom: 1rem;
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    padding: 2.5rem 2rem;
+    text-align: left;
+    border-radius: 0.5rem;
+}
+.reviewer{
+    display: flex;   
+    margin-bottom: 1.5rem;
+}
+
+.reviewer img{
+    border-radius: 50%;
+    width: 12%;
+    margin-right: 1.5rem;
+}
+.reviewer h3{
+    font-size: 12px;
+    margin-bottom: 0.25rem;
+}
+.reviewer__account{
+    color: hsl(333, 80%, 67%);
+}
+.review__text{
+    line-height: 1.7;
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  
